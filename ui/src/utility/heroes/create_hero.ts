@@ -17,5 +17,6 @@ export const createHero = (
       tx.pure.u64(BigInt(power))
     ]
   });
+  
   return tx;
 };
